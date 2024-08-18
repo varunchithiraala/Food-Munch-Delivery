@@ -118,11 +118,15 @@ const Cart = (props) => {
       <div className='cart-items'>
         <div className='cart-items-title'>
           <p>Items</p>
-          <p>Title</p>
-          <p>Price</p>
-          <p>Quantity</p>
           <p
-            className='cart-total-heading'
+            className='cart-items-title-heading'
+          >Title</p>
+          <p>Price</p>
+          <p
+            className='cart-items-title-heading'
+          >Quantity</p>
+          <p
+            className='cart-items-title-heading'
           >Total</p>
           <p>Remove</p>
         </div>
