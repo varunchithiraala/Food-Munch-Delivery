@@ -48,12 +48,12 @@ const Cart = (props) => {
   const handlePromoCodeSubmit = async () => {
     if (getTotalCartAmount() === 0) {
       setPromoCodeError(
-        'Your cart shouldn\'t be empty to apply a promo code.'
+        'Your cart is empty! Add some items to apply a promo code.'
       );
       applyPromoCode('');
     } else if (promoCode === '') {
       setPromoCodeError(
-        'Please enter a valid promo code to apply a discount.'
+        'Please enter a promo code to proceed.'
       );
       applyPromoCode('');
     } else if (promoCode === 'Varuncvk' || promoCode === 'FoodMunch') {
