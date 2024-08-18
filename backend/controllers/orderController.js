@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // Placing user order for frontend
 const placeOrder = async (req, res) => {
-    const frontend_url = 'https://food-munch-delivery-frontend.onrender.com/';
+    const frontend_url = 'https://food-munch-delivery-frontend.onrender.com';
 
     try {
         const { userId, items, amount, address, promoCode } = req.body;
