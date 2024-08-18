@@ -1,0 +1,123 @@
+.login-popup {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.login-popup-container {
+    color: #808080;
+    background-color: #ffffff;
+    font-size: 14px;
+    width: max(23vw, 330px);
+    padding: 25px 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    place-self: center;
+    animation: fadeIn 0.5s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-popup-title {
+    color: #131313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-popup-title-image {
+    width: 16px;
+    cursor: pointer;
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline: none;
+}
+
+.login-popup-input:focus {
+    border-color: #ff6347;
+    box-shadow: 0 0 5px rgba(255, 99, 71, 0.5);
+}
+
+.login-popup-password-container {
+    display: flex;
+    align-items: center;
+}
+
+.passwords-icon {
+    width: 22px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.login-popup-button {
+    color: #ffffff;
+    background-color: #ff3c1a;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-popup-button:focus {
+    outline: 2px solid #ff2600;
+}
+
+.login-popup-button:hover {
+    color: #fafafa;
+    background-color: #ff2600;
+}
+
+.login-popup-error {
+    color: #ff0000;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.login-popup-condition {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.login-popup-condition-input {
+    margin-top: 5px;
+}
+
+.login-popup-span {
+    color: #ff6347;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-popup-span:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+    .login-popup-container {
+        width: 75%;
+        padding: 20px 25px;
+    }
+}

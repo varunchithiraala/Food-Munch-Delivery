@@ -1,0 +1,87 @@
+.food-display {
+    margin-top: 30px;
+}
+
+.food-display-heading {
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.food-display-list {
+    margin-top: 30px;
+    display: grid;
+    gap: 30px;
+    row-gap: 50px;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+}
+
+.spinner-container {
+    min-height: 40vh;
+    display: grid;
+    justify-content: center;
+}
+
+.spinner {
+    height: 40px;
+    width: 40px;
+    border: 5px solid #bdbdbd;
+    border-top-color: #ff6347;
+    border-radius: 50%;
+    place-self: center;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-text {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.error-container {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container-heading {
+    color: #d9534f;
+    font-size: max(2vw,24px);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.error-container-description {
+    text-align: center;
+    color: #777777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.retry-button {
+    color: #49557e;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 1px solid #ff6347;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.retry-button:hover {
+    background-color: #ffe9e6;
+}
+
+@media (max-width: 767px) {
+    .food-display {
+        margin-top: 15px;
+    }
+}

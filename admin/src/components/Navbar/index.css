@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #f8f8f8;
+    padding: 8px 4%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: max(6%, 110px);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1);
+}
+
+.admin-portal-text {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.navbar-profile:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+    .admin-portal-text {
+        font-size: 18px;
+    }
+
+    .navbar-logo {
+        width: max(8%, 60px);
+    }
+
+    .navbar-profile {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+    .admin-portal-text {
+        font-size: 16px;
+    }
+
+    .navbar-logo {
+        width: max(10%, 50px);
+    }
+
+    .navbar-profile {
+        height: 30px;
+        width: 30px;
+    }
+}

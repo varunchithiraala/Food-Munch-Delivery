@@ -1,0 +1,16 @@
+{
+    "name": "food-munch-delivery-application",
+    "version": "1.0.0",
+    "description": "An online Food Munch Delivery Application",
+    "scripts": {
+      "start:frontend": "npm --prefix frontend start",
+      "start:backend": "npm --prefix backend start",
+      "start:admin": "npm --prefix admin start",
+      "start": "npm start:frontend && npm run server:backend && npm start:admin"
+    },
+    "author": "Ch. Varun Kumar",
+    "license": "MIT",
+    "devDependencies": {
+      "concurrently": "^6.0.0"
+    }
+}
