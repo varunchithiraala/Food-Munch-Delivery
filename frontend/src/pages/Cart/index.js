@@ -121,7 +121,9 @@ const Cart = (props) => {
           <p
             className='cart-items-title-heading'
           >Title</p>
-          <p>Price</p>
+          <p
+            className='cart-items-title-heading'
+          >Price</p>
           <p
             className='cart-items-title-heading'
           >Quantity</p>
