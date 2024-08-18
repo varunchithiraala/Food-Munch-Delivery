@@ -251,6 +251,9 @@
     .cart-items-title {
         grid-template-columns: 1fr 1.5fr 1fr 1.5fr 1fr 0.5fr;
     }
+    .cart-total-heading {
+        margin-left: 4px;
+    }
     .cart-items-item-image {
         width: 40px;
     }
