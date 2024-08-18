@@ -56,7 +56,7 @@ This project is a complete food ordering system comprising a backend API, an adm
 
     ```bash
     git clone https://github.com/varunchithiraala/Food-Munch-Delivery.git
-    cd your-repo
+    cd backend
     ```
 
 2. **Install Dependencies:**
@@ -79,7 +79,7 @@ This project is a complete food ordering system comprising a backend API, an adm
 4. **Run the Application:**
 
     ```bash
-    npm start
+    npm run server.js
     ```
 
     The server will start on [http://localhost:4000](http://localhost:4000).
@@ -89,7 +89,7 @@ This project is a complete food ordering system comprising a backend API, an adm
 1. **Navigate to the Project Directory:**
 
     ```bash
-    cd frontend
+    cd ../frontend
     ```
 
 2. **Install Dependencies:**
@@ -111,7 +111,7 @@ This project is a complete food ordering system comprising a backend API, an adm
 1. **Navigate to the Project Directory:**
 
     ```bash
-    cd admin
+    cd ../admin
     ```
 
 2. **Install Dependencies:**
