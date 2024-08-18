@@ -2,6 +2,10 @@
     margin-top: 30px;
 }
 
+.cart-items {
+    min-height: 40vh;
+}
+
 .cart-items-title {
     color: #808080;
     font-size: max(1vw,12px);
