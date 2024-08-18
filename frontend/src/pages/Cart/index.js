@@ -122,7 +122,7 @@ const Cart = (props) => {
             className='cart-items-title-heading'
           >Title</p>
           <p
-            className='cart-items-title-heading'
+            className='cart-items-title-price'
           >Price</p>
           <p
             className='cart-items-title-heading'
