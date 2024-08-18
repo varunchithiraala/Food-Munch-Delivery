@@ -251,9 +251,6 @@
     .cart-items-title {
         grid-template-columns: 1fr 1.5fr 1fr 1.5fr 1fr 0.5fr;
     }
-    .cart-total-heading {
-        margin-left: 4px;
-    }
     .cart-items-item-image {
         width: 40px;
     }
@@ -270,5 +267,11 @@
     }
     .cart-promocode {
         justify-content: flex-start;
+    }
+}
+
+@media (max-width: 575px) {
+    .cart-items-title-heading {
+        margin-left: 10px;
     }
 }
