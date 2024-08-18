@@ -248,11 +248,17 @@
     .cart {
         margin-top: 15px;
     }
+    .cart-items-title {
+        grid-template-columns: 1fr 1.5fr 1fr 1.5fr 1fr 0.5fr;
+    }
+    .cart-items-item-image {
+        width: 40px;
+    }
     .cart-item-counter {
         gap: 4px;
     }
     .cart-item-counter-image {
-        width: 15px;
+        width: 16px;
     }
     .cart-bottom {
         margin-top: 40px;
