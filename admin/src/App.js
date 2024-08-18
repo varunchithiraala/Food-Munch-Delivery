@@ -13,7 +13,7 @@ import './App.css';
 
 const App = () => {
   // Base URL for API requests
-  const url = 'http://localhost:4000';
+  const url = 'https://food-munch-delivery-backend.onrender.com';
   
   return (
     <div>
