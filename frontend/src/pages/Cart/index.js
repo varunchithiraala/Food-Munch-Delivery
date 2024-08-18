@@ -121,7 +121,9 @@ const Cart = (props) => {
           <p>Title</p>
           <p>Price</p>
           <p>Quantity</p>
-          <p>Total</p>
+          <p
+            className='cart-total-heading'
+          >Total</p>
           <p>Remove</p>
         </div>
         <br />
