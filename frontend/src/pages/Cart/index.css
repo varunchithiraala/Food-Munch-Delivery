@@ -270,7 +270,7 @@
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 450px) {
     .cart-items-title-heading {
         margin-left: 10px;
     }
