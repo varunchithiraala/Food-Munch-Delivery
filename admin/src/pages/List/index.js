@@ -57,7 +57,7 @@ const List = (props) => {
         </div>
       ) : (
         <div className='flex'>
-          <div className='list-table-format title'>
+          <div className='title'>
             <b>Image</b>
             <b>Name</b>
             <b>Price</b>
@@ -65,7 +65,7 @@ const List = (props) => {
             <b>Action</b>
           </div>
           {list.map((item, index) => (
-            <div key={index} className='list-table-format'>
+            <div key={index} className=''>
               <img
                 src={`${url}/images/` + item.image}
                 className='list-table-format-image'
