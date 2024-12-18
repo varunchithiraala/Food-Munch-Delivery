@@ -56,7 +56,7 @@ const List = (props) => {
           <div className='spinner'></div> {/* Show loading spinner while data is being fetched */}
         </div>
       ) : (
-        <div className='flex flex-row'>
+        <div>
           <div className='list-table-format title'>
             <b>Image</b>
             <b>Name</b>
