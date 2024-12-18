@@ -56,8 +56,8 @@ const List = (props) => {
           <div className='spinner'></div> {/* Show loading spinner while data is being fetched */}
         </div>
       ) : (
-        <div className='flex'>
-          <div className='title'>
+        <div>
+          <div className='list-table-format title'>
             <b>Image</b>
             <b>Name</b>
             <b>Price</b>
@@ -65,7 +65,7 @@ const List = (props) => {
             <b>Action</b>
           </div>
           {list.map((item, index) => (
-            <div key={index} className=''>
+            <div key={index} className='list-table-format'>
               <img
                 src={`${url}/images/` + item.image}
                 className='list-table-format-image'
